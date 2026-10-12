@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO (dynamically updated by js/seo.js + js/projects.js) -->
+    <title>Project Details | Zeyad Nour Web Development Portfolio</title>
+    <meta name="description" content="View a web development project case study by Zeyad Nour (ZEYADNOUR), a professional Web Developer.">
+    <meta name="author" content="Zeyad Nour">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://zeyadnour.kesug.com/project.html">
+
+    <!-- Open Graph (dynamically updated) -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Zeyad Nour">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://zeyadnour.kesug.com/project.html">
+    <meta property="og:title" content="Project Details | Zeyad Nour Web Development Portfolio">
+    <meta property="og:description" content="View a web development project by Zeyad Nour (ZEYADNOUR), a professional Web Developer.">
+    <meta property="og:image" content="https://zeyadnour.kesug.com/assets/me.png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:alt" content="Zeyad Nour - Web Developer Project">
+
+    <!-- Twitter Card (dynamically updated) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Project Details | Zeyad Nour Web Development Portfolio">
+    <meta name="twitter:description" content="View a web development project by Zeyad Nour (ZEYADNOUR), a professional Web Developer.">
+    <meta name="twitter:image" content="https://zeyadnour.kesug.com/assets/me.png">
+    <meta name="twitter:image:alt" content="Zeyad Nour - Web Developer Project">
+
+    <!-- Favicon & Icon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar navbar-scrolled">
+        <div class="container">
+            <a href="index.html" class="logo nav-brand" aria-label="Zeyad Nour Home">
+                <img src="assets/favicon.png" alt="Zeyad Nour - ZEYADNOUR Logo" class="logo-image nav-logo-img" width="56" height="56">
+            </a>
+
+            <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <div class="mobile-overlay" aria-hidden="true"></div>
+
+            <nav>
+                <ul class="nav-links" id="nav-drawer">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#projects" class="active">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-details-page">
+        <div class="container">
+            <!-- Project details are rendered from local portfolio data. -->
+            <div id="project-details-container">
+                <!-- Project details injected here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Zeyad Nour. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Data Services & Script -->
+    <script src="js/utils.js"></script>
+    <script src="js/seo.js"></script>
+    <script src="js/categories.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/ui.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadProjectDetailsPage();
+        });
+    </script>
+</body>
+</html>

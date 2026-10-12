@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO -->
+    <title>Zeyad Nour (ZEYADNOUR) | Web Developer Portfolio</title>
+    <meta name="description" content="Zeyad Nour (ZEYADNOUR) is a Web Developer specializing in modern, high-performance web applications. Explore his portfolio of real-world projects and digital experiences.">
+    <meta name="author" content="Zeyad Nour">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="googlebot" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="Zeyad Nour, ZEYADNOUR, زياد نور, Web Developer, Frontend Developer, Portfolio, Web Development">
+    <link rel="canonical" href="">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Zeyad Nour">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Zeyad Nour (ZEYADNOUR) | Web Developer Portfolio">
+    <meta property="og:description" content="Zeyad Nour (ZEYADNOUR) is a Web Developer specializing in modern, high-performance web applications. Explore his portfolio of real-world projects.">
+    <meta property="og:image" content="assets/me.png">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:alt" content="Zeyad Nour - Web Developer">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zeyad Nour (ZEYADNOUR) | Web Developer Portfolio">
+    <meta name="twitter:description" content="Zeyad Nour (ZEYADNOUR) is a Web Developer building modern, high-performance web applications and digital experiences.">
+    <meta name="twitter:image" content="assets/me.png">
+    <meta name="twitter:image:alt" content="Zeyad Nour - Web Developer">
+
+    <!-- Favicon & Icon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Structured Data: Person + WebSite + WebPage -->
+    <script type="application/ld+json" data-schema-id="homepage-schemas">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "#person",
+        "name": "Zeyad Nour",
+        "alternateName": "زياد نور",
+        "additionalName": "ZEYADNOUR",
+        "jobTitle": "Web Developer",
+        "description": "Zeyad Nour (ZEYADNOUR) is a Web Developer specializing in building modern, high-performance web applications and digital experiences.",
+        "image": "assets/me.png",
+        "knowsLanguage": ["ar", "en"]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "#website",
+        "name": "Zeyad Nour",
+        "alternateName": "ZEYADNOUR",
+        "author": {
+          "@type": "Person",
+          "@id": "#person"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "#webpage",
+        "name": "Zeyad Nour (ZEYADNOUR) | Web Developer Portfolio",
+        "description": "Personal portfolio of Zeyad Nour, a Web Developer specializing in modern web applications.",
+        "isPartOf": {
+          "@id": "#website"
+        },
+        "about": {
+          "@id": "#person"
+        },
+        "inLanguage": "en"
+      }
+    ]
+    </script>
+</head>
+<body>
+
+    <!-- 1. HEADER / NAVBAR -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#home" class="logo nav-brand" aria-label="Zeyad Nour Home">
+                <img src="assets/favicon.png" alt="Zeyad Nour - ZEYADNOUR Logo" class="logo-image nav-logo-img" width="56" height="56">
+            </a>
+
+            <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-drawer" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="mobile-overlay"></div>
+
+            <nav>
+                <ul id="nav-drawer" class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <span id="hero-eyebrow-text" class="hero-eyebrow">WEB DEVELOPER</span>
+                        <h1 id="profile-name" class="hero-name">Zeyad Nour</h1>
+                        
+                        <div class="typewriter-container">
+                            <span id="typewriter-text"></span>
+                        </div>
+
+                        <p id="profile-headline" class="hero-description">
+                            Web Developer specializing in modern, high-performance web applications.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#projects" class="btn btn-primary">
+                                View My Work <i class="fa-solid fa-arrow-down"></i>
+                            </a>
+                            <a href="#contact" class="btn btn-outline">
+                                Contact Me <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+
+                        <div id="hero-socials" class="hero-socials">
+                            <!-- Dynamic Social Links -->
+                        </div>
+                    </div>
+
+                    <div class="hero-image-wrapper">
+                        <img id="profile-avatar-img" src="assets/me.png" alt="Zeyad Nour - Web Developer" class="profile-avatar" width="320" height="320" fetchpriority="high">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ABOUT SECTION -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-intro">
+                    <span id="about-eyebrow" class="section-eyebrow">ABOUT ME</span>
+                    <h2 id="about-title" class="section-title">Crafting Modern Digital Experiences</h2>
+                    <p id="profile-bio" class="about-bio-text">Zeyad Nour (ZEYADNOUR) is a Web Developer specializing in building modern, high-performance web applications and custom digital experiences.</p>
+                </div>
+
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <span class="highlight-num">01</span>
+                        <h3>Clean Development</h3>
+                        <p>Structured, maintainable and scalable code built with modern web standards.</p>
+                    </div>
+
+                    <div class="highlight-card">
+                        <span class="highlight-num">02</span>
+                        <h3>Responsive Experiences</h3>
+                        <p>Interfaces carefully designed to work across desktop, tablet and mobile devices.</p>
+                    </div>
+
+                    <div class="highlight-card">
+                        <span class="highlight-num">03</span>
+                        <h3>Modern UI</h3>
+                        <p>Minimal, professional interfaces focused on usability, clarity and strong visual hierarchy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SKILLS SECTION -->
+        <section id="skills" class="section" style="background-color: var(--color-light-gray);">
+            <div class="container">
+                <div class="section-header">
+                    <span id="skills-eyebrow" class="section-eyebrow">TECHNICAL PROFICIENCY</span>
+                    <h2 id="skills-title" class="section-title">Skills & Technologies</h2>
+                    <p id="skills-description" class="section-subtitle">Core technical competencies and modern development stack.</p>
+                </div>
+
+                <div id="skills-grid" class="skills-grid">
+                    <!-- Dynamic premium skill cards rendered via js/skills.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-eyebrow">PORTFOLIO WORK</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Selected projects and case studies.</p>
+                </div>
+
+                <!-- Dynamic Category Filter Pills -->
+                <div id="category-filters" class="filter-container">
+                    <!-- Dynamic Pills rendered via js/projects.js -->
+                </div>
+
+                <!-- Dynamic Project Grid Container -->
+                <div id="projects-grid" class="projects-grid">
+                    <!-- Dynamic Project Cards rendered via js/projects.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-card">
+                    <span id="contact-eyebrow" class="section-eyebrow" style="color: var(--color-gray);">GET IN TOUCH</span>
+                    <h2 id="contact-title" class="contact-card-title">Let's Work Together</h2>
+                    <p id="contact-description" class="contact-card-desc">Have an upcoming project or web app idea? Reach out directly.</p>
+                    
+                    <div class="contact-channels-grid">
+                        <!-- EMAIL CARD -->
+                        <a id="profile-email-link" href="#contact" class="contact-channel-card" aria-label="Contact information">
+                            <div class="channel-icon-box">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="channel-info">
+                                <span class="channel-label">Email</span>
+                                <span id="profile-email-text" class="channel-value">Available on request</span>
+                            </div>
+                            <i class="fa-solid fa-arrow-up-right-from-square channel-arrow"></i>
+                        </a>
+
+                        <!-- WHATSAPP CARD (populated dynamically via js/social-links.js if entry exists in DB) -->
+                        <div id="whatsapp-channel" style="display: contents;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 7. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p id="footer-text">&copy; 2026 Zeyad Nour. All rights reserved.</p>
+                <div id="footer-socials" class="footer-socials">
+                    <!-- Dynamic Social Links -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Data Services & Modules -->
+    <script src="js/utils.js"></script>
+    <script src="js/seo.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/categories.js"></script>
+    <script src="js/skills.js"></script>
+    <script src="js/social-links.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
