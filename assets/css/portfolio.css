@@ -3791,3 +3791,30 @@ html,body {
     max-height:calc(100svh - 185px)!important;
   }
 }
+
+/* Mobile-only portrait: show the suit and keep the desktop layout unchanged. */
+@media (max-width:770px) {
+  .hero-reference-photo img,
+  html[dir="rtl"] .hero-reference-photo img,
+  html[dir="ltr"] .hero-reference-photo img {
+    content: url("../images/zeyad-mobile-hero.webp") !important;
+    object-fit: contain !important;
+    object-position: center bottom !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+/* V17 — mobile portrait only: subtly wider shoulders and soft lower fade.
+   Desktop and all other sections remain unchanged. */
+@media (max-width:770px) {
+  .hero-reference-photo, html[dir="rtl"] .hero-reference-photo, html[dir="ltr"] .hero-reference-photo {
+    overflow: hidden !important;
+  }
+  .hero-reference-photo img, html[dir="rtl"] .hero-reference-photo img, html[dir="ltr"] .hero-reference-photo img {
+    transform: scale(1.10) !important;
+    transform-origin: center 67% !important;
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 67%, rgba(0,0,0,.92) 76%, rgba(0,0,0,.55) 89%, transparent 100%) !important;
+    mask-image: linear-gradient(to bottom, #000 0%, #000 67%, rgba(0,0,0,.92) 76%, rgba(0,0,0,.55) 89%, transparent 100%) !important;
+  }
+}
