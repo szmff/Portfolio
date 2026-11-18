@@ -11,7 +11,7 @@
 ![Responsive](https://img.shields.io/badge/Responsive-Design-9F86C0?style=for-the-badge)
 ![Bilingual](https://img.shields.io/badge/Arabic_%2B_English-RTL%2FLTR-25212F?style=for-the-badge)
 
-[**Explore the Sections**](#-website-walkthrough) · [**Download Source**](#-download--run) · [**Deploy**](#-deploy-to-vercel) · [**Contact**](#-connect)
+[**Explore the Sections**](#-website-walkthrough) · [**Download Source**](#-download--run)  · [**Contact**](#-connect)
 
 </div>
 
@@ -163,13 +163,15 @@ Visit `http://localhost:8000`.
 | Animations and interactions / الأنيميشن | `assets/js/` |
 | README screenshots / صور الشرح | `docs/screenshots/` |
 
-## ☁️ Deploy to Vercel
+## 🔄 Updates & Downloads / التحديثات والتحميل
 
-1. Open [vercel.com/new](https://vercel.com/new).
-2. Import the **szmff/Portfolio** GitHub repository.
-3. Select **Other** as the framework preset.
-4. Set **Root Directory** to `./`.
-5. Leave install and build commands empty, then click **Deploy**.
+This repository is the official source for my personal portfolio. I publish improvements and design updates here so visitors can explore the code and download the latest version.
+
+**To download / لتحميل المشروع:** Click **Code → Download ZIP** at the top of this repository, or use [Download ZIP](https://github.com/szmff/Portfolio/archive/refs/heads/main.zip).
+
+**To follow updates / لمتابعة التحديثات:** Check the commit history for changes to the design, animations, content, and responsive layouts.
+
+> **بالعربي:** المستودع ده مخصص لعرض كود البورتفوليو ومشاركة تحديثاته مع المتابعين. مش مطلوب منك تنشره على Vercel؛ تقدر تحمّل أحدث نسخة مباشرة من GitHub.
 
 ## 🤝 Connect
 
