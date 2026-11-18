@@ -1,134 +1,164 @@
 <div align="center">
 
-# Zeyad Nour — Portfolio
+# ZEYAD NOUR
+### FULL-STACK WEB DEVELOPER · UI/UX FOCUSED
 
-**Full-Stack Web Developer · UI/UX-Focused · Egypt 🇪🇬**
+**Modern. Responsive. Bilingual. Built with purpose.**
 
-A modern, responsive personal portfolio showcasing selected projects, development skills, and contact information.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Arabic](https://img.shields.io/badge/Arabic_%2B_English-RTL%2FLTR-9F86C0?style=for-the-badge)
 
-**English & Arabic · LTR & RTL · Mobile-friendly**
-
-[GitHub Profile](https://github.com/szmff) · [LinkedIn](https://eg.linkedin.com/in/zeyad-nour-108b86378) · [Email](mailto:zeyadnour68@gmail.com)
+[**Website Tour**](#-website-walkthrough) · [**Download**](#-download--run) · [**Vercel**](#-deploy-to-vercel) · [**Contact**](#-connect)
 
 </div>
 
 ---
 
-## ✨ About the project
+## ✦ The Experience
 
-This repository contains the source code for **Zeyad Nour's personal portfolio website**. It features a bilingual interface, responsive layouts, animated transitions, a project gallery, and a contact section.
+A personal portfolio built around minimalist dark visuals, expressive typography, smooth interactions, and fully responsive layouts.
 
-### Highlights
+**بالعربي:** الموقع الشخصي لزياد نور، بتصميم داكن ومتجاوب، وبدعم العربية والإنجليزية.
 
-- 🌍 **Arabic / English** interface with RTL support
-- 📱 Responsive layouts for desktop and mobile
-- 🎨 Dark, minimalist visual design and smooth animations
-- 🧩 Project showcases with images and technology stacks
-- ⚡ Static site — no framework build required
+## 📸 Website Walkthrough
 
-## 🖼️ Featured projects
+Six real screenshots from the website, each with an explanation in English and Arabic.
 
-| Project | Overview | Website |
-| --- | --- | --- |
-| **TIBR — تِبر** | Gold and jewelry storefront with Arabic product presentation | [View TIBR](https://tibr.kesug.com/) |
-| **Al-Noor Clinic — عيادة النور** | Clinic booking, reception queue, and doctor workflow | [View Al-Noor Clinic](https://al-noor-clinic-six.vercel.app/) |
-| **OVERPOWER** | Responsive gaming PCs, computer components, and accessories storefront | Featured in portfolio |
+### 01 / HERO — FIRST IMPRESSION
 
-## 🛠️ Built with
+<img src="docs/screenshots/01-hero.webp" width="100%" alt="HERO — FIRST IMPRESSION screenshot" />
 
-**HTML5 · CSS3 · Vanilla JavaScript**
+A bold personal introduction with a cinematic portrait, dark styling and navigation.
 
-The portfolio also showcases projects involving **Next.js, React, TypeScript, Supabase, PostgreSQL, and Tailwind CSS**.
+**بالعربي:** مقدمة الموقع: الصورة الشخصية، التعريف بالمطور، والقائمة الرئيسية.
 
-## 📂 Project structure
+---
+
+### 02 / ABOUT — MY STORY
+
+<img src="docs/screenshots/02-about.webp" width="100%" alt="ABOUT — MY STORY screenshot" />
+
+An introduction to my background, education and approach to web development.
+
+**بالعربي:** نبذة عني وخلفيتي الدراسية وطريقتي في تنفيذ المشاريع.
+
+---
+
+### 03 / EXPERTISE — TECH STACK
+
+<img src="docs/screenshots/03-expertise.webp" width="100%" alt="EXPERTISE — TECH STACK screenshot" />
+
+Frontend, backend, database, design and deployment tools presented in a visual grid.
+
+**بالعربي:** قسم المهارات والتقنيات المستخدمة في التطوير والتصميم والنشر.
+
+---
+
+### 04 / PROJECTS — SELECTED WORK
+
+<img src="docs/screenshots/04-projects.webp" width="100%" alt="PROJECTS — SELECTED WORK screenshot" />
+
+A showcase of TIBR, Al-Noor Clinic and OVERPOWER, with project previews and descriptions.
+
+**بالعربي:** معرض المشاريع الثلاثة مع صور المعاينة ووصف كل مشروع.
+
+---
+
+### 05 / MILESTONES — MY JOURNEY
+
+<img src="docs/screenshots/05-milestones.webp" width="100%" alt="MILESTONES — MY JOURNEY screenshot" />
+
+Education milestones and a structured development workflow, from planning to deployment.
+
+**بالعربي:** المسار الدراسي ومراحل بناء المشاريع من التخطيط حتى النشر.
+
+---
+
+### 06 / CONTACT — LET'S COLLABORATE
+
+<img src="docs/screenshots/06-contact.webp" width="100%" alt="CONTACT — LET'S COLLABORATE screenshot" />
+
+A clear invitation to collaborate on websites, platforms and digital products.
+
+**بالعربي:** قسم التواصل لبدء مشروع أو مناقشة فكرة جديدة.
+
+---
+
+## 🧩 Featured Projects
+
+| Project | Description | Live |
+|---|---|---|
+| **TIBR / تِبر** | Gold and jewelry storefront | [Visit](https://tibr.kesug.com/) |
+| **Al-Noor Clinic / عيادة النور** | Booking, reception queue, and doctor workflow | [Visit](https://al-noor-clinic-six.vercel.app/) |
+| **OVERPOWER** | Gaming PCs and accessories storefront | Portfolio preview |
+
+## 🛠️ Built With
+
+**Portfolio:** HTML5 · CSS3 · Vanilla JavaScript
+
+**Skills showcased:** React · Next.js · TypeScript · Node.js · Tailwind CSS · Supabase · PostgreSQL · Figma · Git · Vercel
+
+## 📂 Project Structure
 
 ```text
 Portfolio/
-├── index.html                 # Main page / الصفحة الرئيسية
+├── index.html
 ├── assets/
-│   ├── css/                   # Styles / التنسيقات
-│   ├── fonts/                 # Local fonts / الخطوط
-│   ├── icons/                 # Technology icons / الأيقونات
-│   ├── images/                # Project images and logo / الصور واللوجو
-│   ├── js/                    # Interactions / التفاعل
-│   └── licenses/              # Third-party notices / التراخيص
-├── data/                      # Structured content / بيانات المحتوى
-├── favicon.ico
-├── robots.txt
-├── sitemap.xml
+│   ├── css/          # Styles / التنسيقات
+│   ├── js/           # Animations / الأنيميشن
+│   ├── images/       # Images / الصور
+│   ├── fonts/
+│   └── icons/
+├── data/
+├── docs/
+│   └── screenshots/  # README gallery / صور الشرح
+├── README.md
 └── vercel.json
 ```
 
-## 🚀 Run locally
+## 📥 Download & Run
 
-1. Download the repository using **Code → Download ZIP**, or clone it:
+[**Download ZIP from GitHub**](https://github.com/szmff/Portfolio/archive/refs/heads/main.zip) — downloads everything currently uploaded to the repository.
 
-   ```bash
-   git clone https://github.com/szmff/Portfolio.git
-   cd Portfolio
-   ```
+```bash
+git clone https://github.com/szmff/Portfolio.git
+cd Portfolio
+python -m http.server 8000
+```
 
-2. Open `index.html` in your browser.
+Open **http://localhost:8000**. You can also open `index.html` directly.
 
-   For local development with JSON files, you can also start a simple server:
+**مهم:** ارفع ملفات الموقع للمستودع علشان التحميل يشمل المشروع كاملًا.
 
-   ```bash
-   python -m http.server 8000
-   ```
+## ✏️ Editing Guide / دليل التعديل
 
-   Then visit **http://localhost:8000**.
+| What to change / التعديل | File / الملف |
+|---|---|
+| Page content / النصوص | `index.html` |
+| Colors and layout / الألوان والتصميم | `assets/css/portfolio.css` |
+| Z logo size / حجم لوجو Z | `.brand img` in `assets/css/portfolio.css` |
+| Images / الصور | `assets/images/` |
+| Animations / الأنيميشن | `assets/js/` |
+| README screenshots / صور الشرح | `docs/screenshots/` |
 
-## ✏️ Editing guide / دليل التعديل
+## ☁️ Deploy to Vercel
 
-| Change / التعديل | Location / المكان |
-| --- | --- |
-| Main text and sections / النصوص والأقسام | `index.html` |
-| Styling and responsive design / التنسيق والموبايل | `assets/css/portfolio.css` |
-| Z logo size / حجم لوجو Z | Search for `.brand img` in `assets/css/portfolio.css` |
-| Logo and project images / اللوجو وصور المشاريع | `assets/images/` |
-| Interactive behavior / التفاعل | `assets/js/` |
-| Structured project and translation data / بيانات المشاريع والترجمة | `data/` |
+1. Open [Vercel](https://vercel.com/new) and import `szmff/Portfolio`.
+2. Choose **Other** for framework preset.
+3. Keep the root directory `./`; no build or install commands required.
+4. Click **Deploy**.
 
-> **Tip / نصيحة:** Keep `index.html` at the repository root when uploading the website.
-
-## ☁️ Deploy on Vercel
-
-1. Open [Vercel New Project](https://vercel.com/new).
-2. Import **szmff/Portfolio**.
-3. Choose **Other** as the framework preset.
-4. Set the root directory to `./`; leave build and install commands empty.
-5. Click **Deploy**.
-
-## 📥 Download source code / تحميل المشروع
-
-Visitors can download the complete repository via **Code → Download ZIP** on GitHub.
-
-**Important:** The download contains the files currently uploaded to this repository. Upload the website source files before sharing the repository as a complete project.
-
-## 📬 Contact
-
-- **GitHub:** [@szmff](https://github.com/szmff)
-- **LinkedIn:** [Zeyad Nour](https://eg.linkedin.com/in/zeyad-nour-108b86378)
-- **Email:** [zeyadnour68@gmail.com](mailto:zeyadnour68@gmail.com)
-
-## 📄 Usage
-
-The code is available for viewing and downloading. No open-source license is currently granted; contact the author before redistributing or reusing it.
-
----
-
-### 🇪🇬 نبذة بالعربي
-
-ده الموقع الشخصي لـ **Zeyad Nour**، وبيضم المشاريع والمهارات وطرق التواصل، مع دعم اللغة العربية والإنجليزية وتصميم متجاوب مع الكمبيوتر والموبايل.
-
-لتشغيل الموقع، حمّل الملفات وافتح `index.html`. لتعديل الأحجام والألوان استخدم `assets/css/portfolio.css`، ولتعديل الأقسام استخدم `index.html`.
-
-**تحميل المشروع:** من صفحة GitHub اضغط **Code → Download ZIP**.
-
----
+## 🤝 Connect
 
 <div align="center">
 
-**Designed & developed by Zeyad Nour**
+**GOT A PROJECT IN MIND?**
+
+[GitHub](https://github.com/szmff) · [LinkedIn](https://eg.linkedin.com/in/zeyad-nour-108b86378) · [Email](mailto:zeyadnour68@gmail.com)
+
+**Designed & developed by Zeyad Nour · Egypt 🇪🇬**
 
 </div>
+
+## 📄 Usage
+
+The source is publicly viewable and downloadable. No open-source license is currently granted; contact the author before reusing or redistributing the code.
