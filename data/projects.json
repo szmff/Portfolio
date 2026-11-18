@@ -1,0 +1,187 @@
+[
+  {
+    "id": "al-nour-clinic",
+    "slug": "al-nour-clinic",
+    "featured": true,
+    "year": "2024",
+    "category": {
+      "en": "Healthcare Platform",
+      "ar": "منصة طبية ورعاية صحية"
+    },
+    "title": {
+      "en": "Al Nour Clinic",
+      "ar": "عيادة النور التخصصية"
+    },
+    "tagline": {
+      "en": "A modern, bilingual clinical management & patient engagement ecosystem.",
+      "ar": "منظومة رقمية ثنائية اللغة لإدارة العيادات وحجز المواعيد الطبية بسلاسة."
+    },
+    "description": {
+      "en": "A streamlined web platform developed for Al Nour Clinic to manage patient appointments, digitize medical workflow requests, and offer a calm, accessible bilingual patient portal with zero layout friction.",
+      "ar": "منصة رقمية متكاملة لعيادة النور التخصصية لتنظيم المواعيد، وأتمتة مسارات الحجز، وتوفير بوابة سهلة الاستخدام للمرضى باللغتين العربية والإنجليزية مع مراعاة أعلى معايير الأمان والخصوصية."
+    },
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "Vanilla JavaScript",
+      "RESTful API",
+      "SVG Animations",
+      "Accessible Forms"
+    ],
+    "client": {
+      "en": "Al Nour Medical Center",
+      "ar": "مركز النور الطبي"
+    },
+    "role": {
+      "en": "Lead Frontend Architect & UI Designer",
+      "ar": "مهندس واجهات ومصمم تجربة المستخدم"
+    },
+    "liveUrl": "https://example.com/al-nour-clinic",
+    "githubUrl": "https://github.com/zeyad-nour/al-nour-clinic",
+    "detailsPage": "projects/al-nour-clinic.html",
+    "metrics": [
+      {
+        "value": "99/100",
+        "label": {
+          "en": "Lighthouse Performance",
+          "ar": "مؤشر أداء لايتهاوس"
+        }
+      },
+      {
+        "value": "< 0.8s",
+        "label": {
+          "en": "Average Page Load",
+          "ar": "زمن تحميل الصفحة"
+        }
+      },
+      {
+        "value": "100%",
+        "label": {
+          "en": "Accessible WCAG AA",
+          "ar": "معايير سهولة الوصول"
+        }
+      }
+    ]
+  },
+  {
+    "id": "tibr",
+    "slug": "tibr",
+    "featured": true,
+    "year": "2024",
+    "category": {
+      "en": "FinTech Platform",
+      "ar": "منصة تقنية مالية واستثمار"
+    },
+    "title": {
+      "en": "TIBR (تِبْر)",
+      "ar": "تِبْر — للاستثمار الرقمي"
+    },
+    "tagline": {
+      "en": "Real-time bullion valuation, asset tracking, and portfolio analytics.",
+      "ar": "منصة لمتابعة أسعار المعادن الثمينة وإدارة المحافظ الاستثمارية لحظياً."
+    },
+    "description": {
+      "en": "A high-performance financial portal delivering real-time pricing indicators for precious metals, portfolio valuation calculations, and interactive data charts with minimal memory footprint.",
+      "ar": "بوابة مالية عالية الكفاءة توفر تتبعاً حياً لأسعار الذهب والمعادن الثمينة، وحسابات القيمة السوقية للمحافظ، مع مخططات بيانية تفاعلية وسريعة الاستجابة بأقل استهلاك للموارد."
+    },
+    "technologies": [
+      "HTML5",
+      "CSS3 Custom Properties",
+      "Modern JavaScript ES6+",
+      "WebSockets / Live Feeds",
+      "Canvas 2D API",
+      "Bilingual RTL"
+    ],
+    "client": {
+      "en": "TIBR Financial Group",
+      "ar": "مجموعة تِبْر المالية"
+    },
+    "role": {
+      "en": "Creative Frontend Engineer",
+      "ar": "مطور واجهات ومؤشرات بيانات"
+    },
+    "liveUrl": "https://example.com/tibr",
+    "githubUrl": "https://github.com/zeyad-nour/tibr",
+    "detailsPage": "projects/tibr.html",
+    "metrics": [
+      {
+        "value": "60fps",
+        "label": {
+          "en": "Real-time Chart Rendering",
+          "ar": "سلاسة الرسوم البيانية"
+        }
+      },
+      {
+        "value": "0 KB",
+        "label": {
+          "en": "Framework Overhead",
+          "ar": "أطر العمل الزائدة"
+        }
+      },
+      {
+        "value": "100%",
+        "label": {
+          "en": "RTL Native Consistency",
+          "ar": "توافق تام للغة العربية"
+        }
+      }
+    ]
+  },
+  {
+    "id": "monolith-studio",
+    "slug": "monolith-studio",
+    "featured": false,
+    "year": "2023",
+    "category": {
+      "en": "Creative Agency",
+      "ar": "استوديو إبداعي رقمي"
+    },
+    "title": {
+      "en": "Monolith Studio",
+      "ar": "استوديو مونوليث"
+    },
+    "tagline": {
+      "en": "Immersive brand showcase with editorial layout and physics-inspired motion.",
+      "ar": "موقع عرض تفاعلي يستعرض الهويات الإبداعية بتناغم حركي وطباعي متقدم."
+    },
+    "description": {
+      "en": "A creative studio concept exploring editorial typographic rhythms, smooth scroll damping, and interactive WebGL canvas backgrounds tailored for high-end design agencies.",
+      "ar": "مفهوم متقدم لاستوديو تصميم إبداعي يركز على الإيقاع الطباعي الفاخر، والانتقالات السلسة، وخلفيات الويب التفاعلية المصممة خصيصاً لوكالات التصميم المرموقة."
+    },
+    "technologies": [
+      "HTML5",
+      "CSS Grid",
+      "Vanilla JS",
+      "GSAP ScrollTrigger",
+      "WebGL Canvas",
+      "Lenis Smooth Scroll"
+    ],
+    "client": {
+      "en": "Monolith Agency",
+      "ar": "وكالة مونوليث"
+    },
+    "role": {
+      "en": "Motion & Creative Developer",
+      "ar": "مطور تفاعلي وحركي"
+    },
+    "liveUrl": "https://example.com/monolith",
+    "githubUrl": "https://github.com/zeyad-nour/monolith-studio",
+    "detailsPage": "projects/al-nour-clinic.html",
+    "metrics": [
+      {
+        "value": "98/100",
+        "label": {
+          "en": "Performance Score",
+          "ar": "مؤشر الأداء"
+        }
+      },
+      {
+        "value": "< 12KB",
+        "label": {
+          "en": "Total Script Payload",
+          "ar": "حجم الشيفرات البرمجية"
+        }
+      }
+    ]
+  }
+]

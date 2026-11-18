@@ -1,0 +1,202 @@
+{
+  "en": {
+    "siteTitle": "Zeyad Nour — Creative Developer & UI/UX Engineer",
+    "metaDescription": "Personal portfolio of Zeyad Nour. Creative Frontend Developer and UI/UX Engineer specializing in modern web applications, high performance, and minimal digital experiences.",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "projects": "Projects",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "hero": {
+      "status": "Available for Select Projects",
+      "line1": "DESIGNING IDEAS.",
+      "line2": "BUILDING EXPERIENCES.",
+      "description": "Creative frontend developer bridging the gap between minimal editorial aesthetics and clean, high-performance web architecture.",
+      "ctaProjects": "View Projects",
+      "ctaContact": "Get in Touch",
+      "scroll": "Scroll to explore"
+    },
+    "about": {
+      "eyebrow": "01 / ABOUT",
+      "title": "Architecting deliberate, performant digital solutions.",
+      "p1": "I am a frontend developer and UI/UX engineer dedicated to crafting thoughtful, responsive, and resilient web experiences. I focus on the intersection of typography, motion, and rock-solid code.",
+      "p2": "Rather than relying on bloated libraries, I champion clean HTML5, modern CSS3, and vanilla JavaScript architectures that load instantly, remain accessible to every user, and scale effortlessly.",
+      "downloadCv": "Download CV",
+      "capabilities": [
+        {
+          "num": "01",
+          "title": "Fluid UI Architecture",
+          "desc": "Responsive layouts, semantic HTML5, modern CSS Grid & Flexbox without framework bloat."
+        },
+        {
+          "num": "02",
+          "title": "Deliberate Motion",
+          "desc": "Hardware-accelerated micro-interactions, smooth page transitions, and GSAP choreographies."
+        },
+        {
+          "num": "03",
+          "title": "Web Performance",
+          "desc": "Sub-second load times, Core Web Vitals optimization, zero-shift rendering, and clean assets."
+        },
+        {
+          "num": "04",
+          "title": "Bilingual Systems",
+          "desc": "Comprehensive bi-directional UX (LTR & RTL) designed natively for Arabic and English."
+        }
+      ]
+    },
+    "skills": {
+      "eyebrow": "02 / EXPERTISE",
+      "title": "Technical stack & specialized proficiencies.",
+      "categories": {
+        "all": "All Technologies",
+        "frontend": "Frontend Development",
+        "backend": "Backend & APIs",
+        "databases": "Databases",
+        "design": "Design & Systems",
+        "tools": "Deployment & Tools",
+        "motion": "Animation & Interaction"
+      }
+    },
+    "projects": {
+      "eyebrow": "03 / SELECTED WORK",
+      "title": "Refined products built with precision.",
+      "viewCaseStudy": "Case Study",
+      "liveDemo": "Live Demo",
+      "viewCode": "GitHub",
+      "viewAll": "Explore All Works"
+    },
+    "experience": {
+      "eyebrow": "04 / MILESTONES",
+      "title": "Professional path & development milestones."
+    },
+    "contact": {
+      "eyebrow": "05 / COLLABORATION",
+      "headline": "LET'S BUILD SOMETHING GREAT.",
+      "subtitle": "Have a high-impact product in mind or looking for a creative developer to elevate your web presence? Let's discuss your vision.",
+      "copyEmail": "Copy Email",
+      "emailCopied": "Email copied to clipboard!",
+      "form": {
+        "name": "Your Name",
+        "namePlaceholder": "Jane Doe",
+        "email": "Your Email",
+        "emailPlaceholder": "jane@example.com",
+        "message": "Project Overview",
+        "messagePlaceholder": "Tell me about your timeline, project scope, and goals...",
+        "submit": "Send Inquiry",
+        "sending": "Sending...",
+        "success": "Thank you! Your message has been received.",
+        "error": "Please provide a valid name, email, and message."
+      }
+    },
+    "footer": {
+      "tagline": "Creative Frontend Developer & UI/UX Engineer",
+      "rights": "All rights reserved.",
+      "builtWith": "Engineered with HTML5, CSS3 & Vanilla JavaScript.",
+      "backToTop": "Back to Top"
+    }
+  },
+  "ar": {
+    "siteTitle": "زياد نور — مطور واجهات أمامية ومصمم تجارب مستخدم",
+    "metaDescription": "الموقع التعريفي الشخصي لزياد نور. مطور واجهات أمامية ومصمم تجارب مستخدم إبداعي متخصص في بناء وتطوير منصات الويب الحديثة وتجارب التفاعل الرقمي عالية الأداء.",
+    "nav": {
+      "home": "الرئيسية",
+      "about": "نبذة عني",
+      "skills": "المهارات",
+      "projects": "المشاريع",
+      "experience": "المسيرة",
+      "contact": "تواصل معي"
+    },
+    "hero": {
+      "status": "متاح للعمل على مشاريع مميزة",
+      "line1": "تصميم الأفكار.",
+      "line2": "صناعة التجارب.",
+      "description": "مطور واجهات أمامية إبداعي يجمع بين جماليات التصميم العصري الرصين وأحدث معايير الأداء والبرمجة النظيفة للويب.",
+      "ctaProjects": "مشاهدة الأعمال",
+      "ctaContact": "تواصل معي",
+      "scroll": "مرر للأسفل للاستكشاف"
+    },
+    "about": {
+      "eyebrow": "٠١ / نبذة عني",
+      "title": "هندسة واجهات برمجية دقيقة وفائقة السرعة.",
+      "p1": "أعمل مطور واجهات أمامية ومهندس تجربة مستخدم شغوفًا بابتكار حلول رقمية عملية، متجاوبة ومتقنة الصنع. أركز على نقطة الالتقاء بين الخطوط المتوازنة، التفاعلات السلسة، والبنية البرمجية المتينة.",
+      "p2": "أفضل دائمًا الاعتماد على أسس الويب الأصيلة: لغات HTML5 وCSS3 وجافاسكريبت الحديثة، لضمان تحميل فوري، تجربة وصول شاملة لكل مستخدم، واستقرار تقني يدوم.",
+      "downloadCv": "تحميل السيرة الذاتية",
+      "capabilities": [
+        {
+          "num": "٠١",
+          "title": "بنية واجهات مرنة",
+          "desc": "تخطيطات متجاوبة وشيفرة دلالية نظيفة باستخدام CSS Grid وFlexbox دون مكتبات ثقيلة."
+        },
+        {
+          "num": "٠٢",
+          "title": "حركة تفاعلية هادفة",
+          "desc": "تفاعلات دقيقة ومسرّعة عتاديًا مع انتقالات سلسة وتناغم حركي عبر GSAP."
+        },
+        {
+          "num": "٠٣",
+          "title": "أداء ويب استثنائي",
+          "desc": "سرعات تحميل قياسية، تحسين مؤشرات الويب الأساسية، وثبات بصري أثناء المعالجة."
+        },
+        {
+          "num": "٠٤",
+          "title": "أنظمة ثنائية اللغة",
+          "desc": "تجربة مستخدم متكاملة تدعم العربية (RTL) والإنجليزية (LTR) بأدق تفاصيل الخطوط والاتجاهات."
+        }
+      ]
+    },
+    "skills": {
+      "eyebrow": "٠٢ / المهارات",
+      "title": "التقنيات والأدوات البرمجية المتخصصة.",
+      "categories": {
+        "all": "كافة التقنيات",
+        "frontend": "تطوير الواجهات",
+        "backend": "الخوادم والواجهات البرمجية",
+        "databases": "قواعد البيانات",
+        "design": "التصميم وأنظمة الواجهات",
+        "tools": "النشر وبيئة العمل",
+        "motion": "الحركة والتفاعل"
+      }
+    },
+    "projects": {
+      "eyebrow": "٠٣ / أعمال مختارة",
+      "title": "مشاريع رقمية نُفذت بعناية واحترافية.",
+      "viewCaseStudy": "دراسة الحالة",
+      "liveDemo": "معاينة مباشرة",
+      "viewCode": "شفرة المصدر",
+      "viewAll": "استعراض كافة الأعمال"
+    },
+    "experience": {
+      "eyebrow": "٠٤ / المحطات المهنية",
+      "title": "مسيرتي في التطوير والخبرات العملية."
+    },
+    "contact": {
+      "eyebrow": "٠٥ / التعاون",
+      "headline": "لنصنع معاً عملاً استثنائياً.",
+      "subtitle": "هل تخطط لمشروع رقمي جديد أو تبحث عن مطور مبدع يرفع من مستوى موقعك وتجربتك الرقمية؟ يسعدني أن نتحدث.",
+      "copyEmail": "نسخ البريد الإلكتروني",
+      "emailCopied": "تم نسخ البريد إلى الحافظة!",
+      "form": {
+        "name": "الاسم الكريم",
+        "namePlaceholder": "مثال: عبد الله أحمد",
+        "email": "البريد الإلكتروني",
+        "emailPlaceholder": "name@example.com",
+        "message": "تفاصيل المشروع",
+        "messagePlaceholder": "أخبرني عن أهداف مشروعك، النطاق المقترح، والجدول الزمني...",
+        "submit": "إرسال الرسالة",
+        "sending": "جاري الإرسال...",
+        "success": "شكراً لك! تم استلام رسالتك بنجاح وسأتواصل معك قريباً.",
+        "error": "يرجى تعبئة كافة الحقول بشكل صحيح."
+      }
+    },
+    "footer": {
+      "tagline": "مطور واجهات أمامية ومصمم تجارب مستخدم",
+      "rights": "جميع الحقوق محفوظة.",
+      "builtWith": "تم التطوير والبرمجة باستخدام HTML5 وCSS3 وVanilla JavaScript.",
+      "backToTop": "العودة للأعلى"
+    }
+  }
+}

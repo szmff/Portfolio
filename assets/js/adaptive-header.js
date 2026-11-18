@@ -1,0 +1,10 @@
+/* adaptive-header.js — Portfolio functionality / وظائف الموقع */
+/* Adaptive navbar reads the background of the actual section beneath it. */
+(()=>{'use strict';
+/* ===== ADAPTIVE HEADER / تغيير ألوان القائمة حسب الخلفية ===== */
+const header=document.querySelector('.top'),root=document.documentElement;if(!header)return;const sections=[...document.querySelectorAll('main>section')];let raf=0;
+const parse=(s)=>{const m=s.match(/rgba?\(([^)]+)\)/);if(!m)return null;const a=m[1].split(',').map(Number);return a.length>=3&&a[3]!==0?a.slice(0,3):null};
+const colors={home:{dark:[10,9,10],light:[10,9,10]},about:{dark:[31,25,43],light:[241,235,248]},expertise:{dark:[18,16,23],light:[247,244,241]},work:{dark:[18,16,23],light:[247,244,241]},milestones:{dark:[18,16,23],light:[247,244,241]},contact:{dark:[35,28,49],light:[238,231,245]}};
+function update(){raf=0;const y=header.getBoundingClientRect().bottom-6;const section=sections.find(s=>{const b=s.getBoundingClientRect();return b.top<=y&&b.bottom>y})||sections[0];if(!section)return;const light=root.dataset.theme==='light';const computed=getComputedStyle(section);let rgb=parse(computed.backgroundColor);if(!rgb){rgb=(colors[section.id]||colors.expertise)[light?'light':'dark'];}if(section.id==='home')rgb=[10,9,10];const brightness=(rgb[0]*.299+rgb[1]*.587+rgb[2]*.114);const tone=brightness>135?'light':'dark';header.dataset.context=tone;header.dataset.section=section.id;header.style.setProperty('--context-rgb',rgb.map(Math.round).join(','));header.style.setProperty('--context-fg',tone==='light'?'#241d2b':'#fff');}
+const queue=()=>{if(!raf)raf=requestAnimationFrame(update)};addEventListener('scroll',queue,{passive:true});addEventListener('resize',queue,{passive:true});new MutationObserver(queue).observe(root,{attributes:true,attributeFilter:['data-theme']});update();
+})();

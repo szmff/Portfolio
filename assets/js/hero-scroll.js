@@ -1,0 +1,6 @@
+/* hero-scroll.js — Portfolio functionality / وظائف الموقع */
+(()=>{'use strict';
+/* ===== HERO SCROLL ANIMATION / ظهور العنوان مع النزول ===== */
+const hero=document.querySelector('.hero-reference'),lines=[...document.querySelectorAll('.hero-reference-title span')];if(!hero||!lines.length)return;const reduced=matchMedia('(prefers-reduced-motion: reduce)');let raf=0;const clamp=x=>Math.max(0,Math.min(1,x));
+/* ===== SCROLL PROGRESS / حساب تقدم التمرير ===== */
+function update(){raf=0;const total=Math.max(1,hero.offsetHeight-innerHeight+70);const progress=clamp(-hero.getBoundingClientRect().top/total);lines.forEach((line,i)=>{const p=reduced.matches?1:clamp((progress-i*.19)/.18),smooth=p*p*(3-2*p);line.style.setProperty('--hero-opacity',String(smooth));line.style.setProperty('--hero-offset',`${(1-smooth)*26}px`);line.style.setProperty('--hero-blur',`${(1-smooth)*5}px`)});}function queue(){if(!raf)raf=requestAnimationFrame(update)}update();hero.classList.add('hero-scroll-ready');addEventListener('scroll',queue,{passive:true});addEventListener('resize',queue);addEventListener('hashchange',queue);reduced.addEventListener('change',queue)})();
